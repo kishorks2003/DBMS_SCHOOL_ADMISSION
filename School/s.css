@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+nav{
+    position: fixed;
+    background-color: rgb(234, 179, 156);
+    height: 80px;
+    width:100%;
+    z-index: 1;
+    border:  2px solid red;
+}
+
+.logo{
+font-size: 40px;--
+color: rgb(15, 23, 15);
+position: relative;
+padding-left: 20px;
+padding-top: 10px;
+
+
+}
+
+ul{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0px 10px;
+}
+
+ul li a,.logo{
+    text-decoration:none ;
+    font-size: 15px;
+    text-decoration: none;
+    list-style: none;
+    color:white;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: red;
+    padding: 5px;
+    text-decoration-line: none;
+    
+
+}
+
+ul li a:hover,.logo{
+    text-decoration-line: none;
+        background-color: rgb(255, 255, 255);
+        color: red;
+        font-weight: bold;
+}
+.main{
+padding-top: 80px;
+}
+#aimg{
+    width: 100%;
+    height:500px;
+    border: 2px solid red;
+}
+
+.course{
+    text-align: center;
+    display: inline-block;
+    border: 2px solid red;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(166, 220, 72);
+}
+
+.col-md-4{
+    background-color: wheat;
+    border: 2px solid rgb(85, 21, 21);
+}
+
+p{
+    text-align: justify;
+    padding: 5px;
+    
+}
+
+.onpic{
+    position: absolute;
+    align-items: center;
+    top:30%;
+    right: 40%;
+    font-size: 30px;
+    color:white;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: red;
+    padding: 30px;
+   
+    
+    
+}
+
+.onpic:hover{
+    background-color: rgb(255, 255, 255);
+    color: red;
+    
+
+}
+
+body{
+    background-color: burlywood;
+    
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: rgb(32, 28, 28);
+    color: white;
+    border: 3px solid red;
+    border-top-style: dotted;
+
+}
+
+.a{
+    padding-bottom: 20px;
+}
+
+
+#submit{
+    width:100px;
+   
+  
+}
+table td{
+    padding-left: 15px;
+}
+
+
+td input,textarea{
+ max-width: 250px;
+ height: 30px;
+ margin: 5px;
+ padding: 5px;
+ 
+
+}
+
+
+
+.formd{
+background-color: rgb(211, 190, 190);
+  display: block;
+  align-items: center;
+    margin-top: 200px;
+    padding: 50px;
+    width: 600px;
+    border-radius: 50px;
+    border: 2px dotted white;
+    color: rgb(0, 0, 0);
+    
+}
+
+.formsubmit{
+    font-size: 20px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 20px;
+    border: 5px dashed rgb(4, 126, 0);
+   
+    background-color: greenyellow;
+
+&:hover{
+    background-color: green;
+    border-radius: 20px;
+    border: 5px solid greenyellow;
+    font-weight: bold;
+    
+
+}
+}
+
+
+
+.logintable{
+    background-color: goldenrod;
+}
+
+
